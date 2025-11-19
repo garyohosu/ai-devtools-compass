@@ -15,7 +15,7 @@ AI開発ツール（Gemini CLI、Cline MCP、Cursor、Dify等）を徹底比較�
 ## ✨ 主な機能
 
 ### 1️⃣ ツール比較マトリックス
-- **12種類のAI開発ツール**を掲載
+- **13種類のAI開発ツール**を掲載
 - カテゴリ（CLI、IDE拡張、統合環境）別に整理
 - 主要機能、料金、対応言語、学習曲線を一覧表示
 - ⭐評価システム（1-5段階）
@@ -102,6 +102,7 @@ ai-devtools-compass/
 | Gemini CLI | CLI | 無料 | ⭐4.5 |
 | Aider | CLI | 無料（APIキー必要） | ⭐4.6 |
 | ShellGPT | CLI | 無料（APIキー必要） | ⭐4.5 |
+| Codex CLI | CLI | ChatGPT Plus~ $20/月 | ⭐4.6 |
 | Claude Code | CLI | 無料（Claude Pro/API必要） | ⭐4.7 |
 | Cline MCP | IDE拡張 | 無料 | ⭐4.8 |
 | GitHub Copilot | IDE拡張 | $10/月 | ⭐4.6 |

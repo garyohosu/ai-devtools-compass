@@ -9,6 +9,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+- **Codex CLI**: 正確な情報に修正
+  - OpenAI公式ツールとして復元
+  - 公式URL: https://developers.openai.com/codex/cli/
+  - ChatGPT Plus以上（$20/月~）が必要と明記
+  - インタラクティブTUI、画像入力、MCP対応などの機能を追加
+
+### Added
+- **Codex CLI**と**ShellGPT**を両方掲載
+  - Codex CLI: OpenAI公式のターミナルエージェント
+  - ShellGPT: サードパーティのマルチLLMツール
+  - 両者は異なるツールとして併存
+
 ---
 
 ## [1.2.0] - 2025-01-19
