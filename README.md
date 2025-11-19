@@ -15,7 +15,7 @@ AI開発ツール（Gemini CLI、Cline MCP、Cursor、Dify等）を徹底比較�
 ## ✨ 主な機能
 
 ### 1️⃣ ツール比較マトリックス
-- **10種類以上のAI開発ツール**を掲載
+- **12種類のAI開発ツール**を掲載
 - カテゴリ（CLI、IDE拡張、統合環境）別に整理
 - 主要機能、料金、対応言語、学習曲線を一覧表示
 - ⭐評価システム（1-5段階）
@@ -96,15 +96,17 @@ ai-dev-tools-comparison/
 | ツール名 | カテゴリ | 料金 | 評価 |
 |---------|---------|------|------|
 | Gemini CLI | CLI | 無料 | ⭐4.5 |
-| Cline MCP | IDE拡張 | 無料 | ⭐4.8 |
-| Cursor | 統合環境 | 無料/Pro $20/月 | ⭐4.7 |
-| Dify | 統合環境 | 無料/クラウド $59/月~ | ⭐4.3 |
-| GitHub Copilot | IDE拡張 | $10/月 | ⭐4.6 |
-| Claude Code | 統合環境 | 無料/Pro $20/月 | ⭐4.9 |
-| Tabnine | IDE拡張 | 無料/Pro $12/月 | ⭐4.4 |
-| Replit AI | 統合環境 | 無料/Core $15/月 | ⭐4.2 |
-| Codeium | IDE拡張 | 無料 | ⭐4.5 |
 | Aider | CLI | 無料（APIキー必要） | ⭐4.6 |
+| Codex CLI | CLI | 無料（APIキー必要） | ⭐4.3 |
+| Claude Code CLI | CLI | 無料（APIキー必要） | ⭐4.7 |
+| Cline MCP | IDE拡張 | 無料 | ⭐4.8 |
+| GitHub Copilot | IDE拡張 | $10/月 | ⭐4.6 |
+| Tabnine | IDE拡張 | 無料/Pro $12/月 | ⭐4.4 |
+| Codeium | IDE拡張 | 無料 | ⭐4.5 |
+| Cursor | 統合環境 | 無料/Pro $20/月 | ⭐4.7 |
+| Claude Code | 統合環境 | 無料/Pro $20/月 | ⭐4.9 |
+| Dify | 統合環境 | 無料/クラウド $59/月~ | ⭐4.3 |
+| Replit AI | 統合環境 | 無料/Core $15/月 | ⭐4.2 |
 
 ## 🎯 使い方
 
@@ -225,6 +227,12 @@ MIT License - 自由に使用・改変・配布できます。
 
 ## 📝 更新履歴
 
+### v1.1.0 (2025-01-19)
+- ✨ CLIカテゴリに2つの新ツール追加
+  - Codex CLI (OpenAI Codexベース)
+  - Claude Code CLI (長文コンテキスト対応)
+- 📊 掲載ツール数: 10 → 12種類
+
 ### v1.0.0 (2025-01-19)
 - 🎉 初回リリース
 - ✅ 10種類のAI開発ツールを掲載
@@ -232,6 +240,7 @@ MIT License - 自由に使用・改変・配布できます。
 - ✅ ダークモード対応
 - ✅ データエクスポート/インポート機能
 - ✅ LocalStorageでのメモ保存
+- 🌐 GitHub Pages公開
 
 ---
 
