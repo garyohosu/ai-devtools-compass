@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [Unreleased]
+
+### Changed
+- **Claude Code CLI** を **Claude Code** に名称変更（CLIカテゴリ）
+  - よりシンプルで分かりやすい名称に統一
+- **Claude Code (Artifacts)** を **Claude (Artifacts)** に名称変更（統合環境カテゴリ）
+  - IDを `claude-code` から `claude-artifacts` に変更してCLIツールと区別
+
+---
+
 ## [1.1.0] - 2025-01-19
 
 ### Added
@@ -14,7 +24,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - OpenAI Codexベースの自然言語コマンド生成ツール
   - シェル統合、エラー解決サポート
   - 初心者向けのCLIツール
-- **Claude Code CLI** (⭐4.7) を CLIカテゴリに追加
+- **Claude Code** (⭐4.7) を CLIカテゴリに追加
   - 長文コンテキスト対応（200Kトークン）
   - 高度な推論能力とリファクタリング機能
   - 中級者向けのCLIツール

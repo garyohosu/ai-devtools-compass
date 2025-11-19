@@ -102,13 +102,13 @@ ai-devtools-compass/
 | Gemini CLI | CLI | 無料 | ⭐4.5 |
 | Aider | CLI | 無料（APIキー必要） | ⭐4.6 |
 | Codex CLI | CLI | 無料（APIキー必要） | ⭐4.3 |
-| Claude Code CLI | CLI | 無料（APIキー必要） | ⭐4.7 |
+| Claude Code | CLI | 無料（APIキー必要） | ⭐4.7 |
 | Cline MCP | IDE拡張 | 無料 | ⭐4.8 |
 | GitHub Copilot | IDE拡張 | $10/月 | ⭐4.6 |
 | Tabnine | IDE拡張 | 無料/Pro $12/月 | ⭐4.4 |
 | Codeium | IDE拡張 | 無料 | ⭐4.5 |
 | Cursor | 統合環境 | 無料/Pro $20/月 | ⭐4.7 |
-| Claude Code | 統合環境 | 無料/Pro $20/月 | ⭐4.9 |
+| Claude (Artifacts) | 統合環境 | 無料/Pro $20/月 | ⭐4.9 |
 | Dify | 統合環境 | 無料/クラウド $59/月~ | ⭐4.3 |
 | Replit AI | 統合環境 | 無料/Core $15/月 | ⭐4.2 |
 

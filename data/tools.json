@@ -96,8 +96,8 @@
       "updatedAt": "2025-01-14"
     },
     {
-      "id": "claude-code",
-      "name": "Claude Code (Artifacts)",
+      "id": "claude-artifacts",
+      "name": "Claude (Artifacts)",
       "category": "統合環境",
       "features": ["コード生成", "インタラクティブ実行", "マルチファイル", "デバッグ"],
       "pricing": "無料/Pro版 $20/月",
@@ -210,8 +210,8 @@
       "updatedAt": "2025-01-19"
     },
     {
-      "id": "claude-code-cli",
-      "name": "Claude Code CLI",
+      "id": "claude-code",
+      "name": "Claude Code",
       "category": "CLI",
       "features": ["長文コンテキスト", "コード生成", "リファクタリング", "ドキュメント生成"],
       "pricing": "無料（Claude API必要）",
