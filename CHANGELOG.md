@@ -9,6 +9,47 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+---
+
+## [1.2.0] - 2025-01-19
+
+### Fixed
+- **Tabnine**: 価格情報を更新（$12/月 → $59/月、無料プラン廃止を反映）
+  - 2025年4月に無料プラン（Basic）が廃止
+  - 現在は年払いのみで$59/ユーザー/月
+- **Replit AI**: 価格情報を修正（$15/月 → $20/月）
+  - 正しい価格は$20/月（年払い）
+  - Coreプランには月額$25のAI使用クレジット含む
+- **Codex CLI**: 不正確な情報を削除し、ShellGPTに置き換え
+  - 旧記載のURL（https://github.com/microsoft/shell-gpt）は存在せず
+  - 正しいツール名はShellGPT（https://github.com/TheR1D/shell_gpt）
+- **Claude Code**: 公式URLを修正
+  - https://www.anthropic.com/claude → https://code.claude.com/
+  - チュートリアルURLも追加
+- **Cline MCP**: 難易度を修正（初心者 → 中級）
+  - MCP設定やAPIキー管理にはある程度の技術知識が必要
+
+### Added
+- すべてのツールに `pricingVerifiedDate` フィールドを追加
+  - 価格情報の最終確認日を記録（2025-01-19）
+- 「無料」ツールに対して、API料金が別途発生する旨の注釈を追加
+  - Gemini CLI、Cline MCP、Aider、Claude Code、ShellGPT
+
+### Changed
+- 価格情報の表記を統一し、より正確な情報に更新
+- 公式URLとチュートリアルURLを分離して記載
+- ツールの説明文（description）を明確化
+- Codeiumの注釈にWindsurf名称変更の情報を追加
+
+### Documentation
+- ファクトチェック実施日: 2025-01-19
+- 検証方法: 各ツールの公式サイト、公式ドキュメント、GitHubリポジトリを直接確認
+- 全12ツールの情報を最新状態に更新
+
+---
+
+## [1.1.0] - 2025-01-19
+
 ### Changed
 - **Claude Code CLI** を **Claude Code** に名称変更（CLIカテゴリ）
   - よりシンプルで分かりやすい名称に統一
