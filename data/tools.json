@@ -189,6 +189,44 @@
       "pros": ["Git統合", "マルチファイル対応", "高精度"],
       "cons": ["CLI操作が必要", "APIキー必須"],
       "updatedAt": "2025-01-07"
+    },
+    {
+      "id": "codex-cli",
+      "name": "Codex CLI",
+      "category": "CLI",
+      "features": ["自然言語コマンド", "シェル統合", "コード生成", "エラー解決"],
+      "pricing": "無料（OpenAI APIキー必要）",
+      "pricingTier": "free",
+      "languages": ["Bash", "Shell", "Python", "JavaScript", "多言語"],
+      "difficulty": "初心者",
+      "rating": 4.3,
+      "officialUrl": "https://github.com/microsoft/shell-gpt",
+      "tutorialUrl": "",
+      "screenshot": "",
+      "notes": "",
+      "description": "OpenAI Codexを使用したCLIツール。自然言語でシェルコマンドやコードを生成。ターミナル操作を支援。",
+      "pros": ["自然言語でコマンド生成", "シェル統合", "初心者に優しい"],
+      "cons": ["OpenAI APIキー必要", "API使用料がかかる"],
+      "updatedAt": "2025-01-19"
+    },
+    {
+      "id": "claude-code-cli",
+      "name": "Claude Code CLI",
+      "category": "CLI",
+      "features": ["長文コンテキスト", "コード生成", "リファクタリング", "ドキュメント生成"],
+      "pricing": "無料（Claude API必要）",
+      "pricingTier": "free",
+      "languages": ["Python", "JavaScript", "TypeScript", "Go", "Rust", "多言語"],
+      "difficulty": "中級",
+      "rating": 4.7,
+      "officialUrl": "https://www.anthropic.com/claude",
+      "tutorialUrl": "",
+      "screenshot": "",
+      "notes": "",
+      "description": "Anthropic ClaudeをCLIから利用できるツール。長文コンテキスト対応で大規模コードベースの理解に優れる。",
+      "pros": ["200K トークン対応", "高度な推論能力", "安全性重視"],
+      "cons": ["APIキー設定必要", "レート制限あり"],
+      "updatedAt": "2025-01-19"
     }
   ]
 }
