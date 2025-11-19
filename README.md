@@ -78,7 +78,7 @@ open http://localhost:8000
 ### ファイル構成
 
 ```
-ai-dev-tools-comparison/
+ai-devtools-compass/
 ├── index.html              # メインHTMLファイル
 ├── css/
 │   └── style.css          # カスタムCSS
@@ -88,7 +88,11 @@ ai-dev-tools-comparison/
 │   └── tools.json         # ツールデータ（JSON）
 ├── assets/
 │   └── images/            # スクリーンショット等
-└── README.md              # このファイル
+├── README.md              # このファイル
+├── CHANGELOG.md           # 変更履歴（必ず更新）
+├── AGENTS.md              # AI Agents向け指示書
+├── CLAUDE.md              # Claude専用指示書
+└── DEPLOYMENT.md          # GitHub Pagesデプロイ手順
 ```
 
 ## 📊 掲載ツール一覧
@@ -177,6 +181,15 @@ ai-dev-tools-comparison/
 
 プルリクエスト大歓迎です！
 
+### 📚 開発者向けドキュメント
+
+プロジェクトへの貢献前に、以下のドキュメントをご確認ください：
+
+- **[CHANGELOG.md](CHANGELOG.md)**: 変更履歴の記録方法
+- **[AGENTS.md](AGENTS.md)**: AI Agents向けの開発ガイドライン
+- **[CLAUDE.md](CLAUDE.md)**: Claude専用の詳細指示書
+- **[DEPLOYMENT.md](DEPLOYMENT.md)**: GitHub Pagesへのデプロイ手順
+
 ### 新しいツールを追加する方法
 
 1. `data/tools.json`を編集
@@ -200,11 +213,18 @@ ai-dev-tools-comparison/
   "description": "説明文",
   "pros": ["メリット1", "メリット2"],
   "cons": ["デメリット1", "デメリット2"],
-  "updatedAt": "2025-01-15"
+  "updatedAt": "2025-01-19"
 }
 ```
 
-3. プルリクエストを送信
+3. **CHANGELOG.md に変更を記録**（必須）
+4. プルリクエストを送信
+
+### ⚠️ 重要な注意事項
+
+- **変更後は必ず [CHANGELOG.md](CHANGELOG.md) を更新してください**
+- Conventional Commits 形式でコミットメッセージを記述
+- 詳細は [AGENTS.md](AGENTS.md) を参照
 
 ## 📄 ライセンス
 
