@@ -2,8 +2,13 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red.svg)](https://github.com)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen)](https://garyohosu.github.io/ai-devtools-compass/)
 
 AI開発ツール（Gemini CLI、Cline MCP、Cursor、Dify等）を徹底比較できるインタラクティブなWebアプリケーションです。
+
+## 🌐 Live Demo
+
+**👉 [https://garyohosu.github.io/ai-devtools-compass/](https://garyohosu.github.io/ai-devtools-compass/)**
 
 ![AI Dev Tools Comparison](https://via.placeholder.com/800x400?text=AI+Dev+Tools+Comparison)
 
@@ -55,10 +60,10 @@ AI開発ツール（Gemini CLI、Cline MCP、Cursor、Dify等）を徹底比較�
 
 ```bash
 # リポジトリをクローン
-git clone https://github.com/yourusername/ai-dev-tools-comparison.git
+git clone https://github.com/garyohosu/ai-devtools-compass.git
 
 # ディレクトリに移動
-cd ai-dev-tools-comparison
+cd ai-devtools-compass
 
 # ローカルサーバーを起動（方法1: Python）
 python3 -m http.server 8000
@@ -232,4 +237,4 @@ MIT License - 自由に使用・改変・配布できます。
 
 ⭐ このプロジェクトが役立ったら、GitHubでスターをお願いします！
 
-💡 質問やフィードバックは[Issues](https://github.com/yourusername/ai-dev-tools-comparison/issues)へ
+💡 質問やフィードバックは[Issues](https://github.com/garyohosu/ai-devtools-compass/issues)へ
